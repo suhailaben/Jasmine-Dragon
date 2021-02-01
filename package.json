@@ -1,0 +1,23 @@
+{
+  "name": "jasmine-dragon",
+  "version": "1.0.0",
+  "description": "restaurant page for the Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhailaben/Jasmine-Dragon.git"
+  },
+  "author": "suben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhailaben/Jasmine-Dragon/issues"
+  },
+  "homepage": "https://github.com/suhailaben/Jasmine-Dragon#readme",
+  "devDependencies": {
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
