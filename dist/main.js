@@ -1,1 +1,1 @@
-console.log("The finest tea");
+(()=>{"use strict";(()=>{const e=document.querySelector("#content"),t=document.createElement("header");e.appendChild(t);const n=document.createElement("img");n.setAttribute("src","assets/jasmine-dragon logo.svg"),t.appendChild(n);const c=document.createElement("h1");c.textContent="The Jasmine Dragon",t.appendChild(c)})()})();

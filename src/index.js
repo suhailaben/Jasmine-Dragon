@@ -1,1 +1,1 @@
-console.log('The finest tea');
+import basic from './basic.js'
