@@ -17,7 +17,12 @@
   },
   "homepage": "https://github.com/suhailaben/Jasmine-Dragon#readme",
   "devDependencies": {
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
     "webpack": "^5.19.0",
     "webpack-cli": "^4.4.0"
+  },
+  "dependencies": {
+    "tabsy-css": "^1.0.0"
   }
 }
