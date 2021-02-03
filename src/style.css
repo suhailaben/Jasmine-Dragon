@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Sarina&display=swap');
+
 body,
 html {
   background: linear-gradient(
@@ -6,6 +8,7 @@ html {
     hsla(74, 32%, 32%, 1) 100%
   );
   font-family: "PT Sans", sans-serif;
+  font-size: 18px;
 }
 
 #content {
@@ -20,7 +23,7 @@ html {
 h1 {
   font-family: "Sarina", cursive;
   color: #000;
-  font-size: 6vmin;
+  font-size: 6vw;
 }
 
 header {
@@ -41,8 +44,19 @@ main {
   padding: 5%;
 }
 
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, '1fr');
+}
+
 @media only screen and (max-width: 1500px) {
   #content {
     width: 80%;
   }
 }
+
+@media only screen and (max-width: 550px) {
+    #content {
+      width: 100%;
+    }
+  }
