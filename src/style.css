@@ -46,7 +46,22 @@ main {
 
 nav {
     display: grid;
-    grid-template-columns: repeat(3, '1fr');
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}
+
+section {
+    padding: 15px;
+    background: #dda15e;
+}
+
+section:hover {
+    background: #bc6c25;
+}
+
+.active {
+    background: #bc6c25;
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 1500px) {

@@ -11,7 +11,6 @@ let nav = (() => {
     navbar.appendChild(menu);
     navbar.appendChild(contact);
     content.appendChild(navbar);
-    console.log('yo!')
 })()
 
 
