@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Sarina&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Mr+Dafoe&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 body,
 html {
@@ -21,23 +21,25 @@ html {
 }
 
 h1 {
-  font-family: "Sarina", cursive;
+  font-family: "Kaushan Script", cursive;
   color: #000;
   font-size: 6vw;
+  justify-self: start;
 }
 
 header {
   background: #bc6c25;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 5fr;
   align-items: center;
   justify-items: flex-start;
-  padding: 5%;
+  padding: 2%;
 }
 
 header > img {
   width: 60%;
-  margin: 5%;
+  margin: 2%;
+  justify-self: end;
 }
 
 main {
@@ -45,23 +47,25 @@ main {
 }
 
 nav {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
 }
 
 section {
-    padding: 15px;
-    background: #dda15e;
+  padding: 15px;
+  background: #dda15e;
+  display: grid;
+  justify-items: center;
 }
 
 section:hover {
-    background: #bc6c25;
+  background: #bc6c25;
 }
 
 .active {
-    background: #bc6c25;
-    font-weight: 400;
+  background: #bc6c25;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -71,7 +75,7 @@ section:hover {
 }
 
 @media only screen and (max-width: 550px) {
-    #content {
-      width: 100%;
-    }
+  #content {
+    width: 100%;
   }
+}
