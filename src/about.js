@@ -1,12 +1,21 @@
+import about1 from "./about1.png";
+import about2 from "./about2.png";
+
 let about = () => {
   const main = document.querySelector("main");
   while (main.firstChild) {
     main.removeChild(main.firstChild);
   }
-  const p = document.createElement("p");
-  p.textContent =
-    "The Jasmine Dragon is a traditional tea shop in the Upper Ring of Ba Sing Se; due to its location, its clientele mostly consists of the upper class citizens of the Earth Kingdom capital. It was once a failing business but was completely revived after Iroh took over.";
-  main.appendChild(p);
+  const photo1 = new Image();
+  photo1.src = about1;
+  main.appendChild(photo1);
+  const div = document.createElement("div");
+  div.textContent =
+    "The Jasmine Dragon has been voted best tea shop in Ba Sing Se every year since it was taken over by General Iroh. According to Iroh, the secret ingredient is love. Reservations recommended. See the 'Contact Us' page to make your reservation today.";
+  main.appendChild(div);
+  const photo2 = new Image();
+  photo2.src = about2;
+  main.appendChild(photo2);
 };
 
 export default about;

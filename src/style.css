@@ -18,6 +18,7 @@ html {
   display: grid;
   align-items: center;
   justify-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 h1 {
@@ -44,6 +45,18 @@ header > img {
 
 main {
   padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 15px;
+  gap: 15px;
+}
+
+main > div {
+  display: grid;
+}
+
+main > img {
+  width: 100%;
 }
 
 nav {
@@ -71,6 +84,17 @@ section:hover {
 @media only screen and (max-width: 1500px) {
   #content {
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+
+  nav {
+    grid-template-columns: auto;
+  }
+
+  main {
+    grid-template-columns: auto;
   }
 }
 

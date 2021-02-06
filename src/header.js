@@ -1,4 +1,4 @@
-import logo from "./jasmine-dragon-logo.svg";
+import logo from "./jasmine-dragon-logo.png";
 
 var header = (() => {
   const content = document.querySelector("#content");

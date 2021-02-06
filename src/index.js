@@ -28,5 +28,4 @@ function setActive(tabID) {
   });
   let toActivate = document.querySelector(`#${tabID}`);
   toActivate.setAttribute("class", "active");
-  console.log("yup");
 }
